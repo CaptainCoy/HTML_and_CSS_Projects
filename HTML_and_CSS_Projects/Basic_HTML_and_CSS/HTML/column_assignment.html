@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang='en'>
+    <head>
+        <meta charset='utf-8'>        
+        <style>
+            
+        * {
+            box-sizing: border-box;
+        }
+        
+        .column {
+            float: left;
+            width: 69%;
+            padding: 15px;
+            height: 420px;
+            color:rgb(221, 155, 13)
+        }
+
+        .row:after {
+            content: "";
+            display: table;
+            clear: both;
+        }  
+
+        </style>           
+            <title>
+                Column Assignment
+            </title>    
+    </head>
+    <body>
+        <h1>The col element</h1>
+
+            <table>
+                <colgroup>
+                    <col span="2" style="background-color:rgb(3, 150, 59)">
+                    <col style="background-color:rgb(123, 247, 52)">
+                </colgroup>
+                <tr>
+                    <th>Dog</th>
+                    <th>Name</th>
+                    <th>Good Buddy?</th>
+                </tr>
+                <tr>
+                    <td>Poodle</td>
+                    <td>Olive</td>
+                    <td>Yes</td>
+                </tr>
+                <tr>
+                    <td>Shih Tzu</td>
+                    <td>Travis</td>
+                    <td>Yes</td>
+                </tr>
+            </table>
+        <h1>check these babies out</h1>
+        <div class='row'>
+            <div class='column' style='background-color: rgb(9, 87, 83);'>
+            <h3>#1</h3>
+                <p>Pretty Neat</p>
+            </div>
+            <div class='column' style='background-color: rgb(116, 4, 38);'>
+                <h3>#2</h3>
+                    <p>Over here too!</p>
+            </div>
+        </div>
+    </body>
+</html>
+

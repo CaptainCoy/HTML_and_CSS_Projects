@@ -1,0 +1,11 @@
+ol {
+	list-style-type: upper-roman;
+	background-color: purple;
+	color: orange;
+}
+
+ul {
+	list-style-type: star;
+	background-color: orange;
+	color: purple;
+}
